@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": "17c9",
+      "name": "Tenis Puma",
+      "price": "280.65"
+    },
+    {
+      "id": "6698",
+      "name": "Calça Balão",
+      "price": "79.90"
+    },
+    {
+      "id": "fafd",
+      "name": "Blusa de frio",
+      "price": "120"
+    }
+  ]
+}

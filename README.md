@@ -13,9 +13,6 @@ Este é um projeto React com uso do **React Router v6** e **JSON Server** para s
 ┣ App.js → Componente principal da aplicação.
 ┣ index.js → Ponto de entrada da aplicação React.
 
-markdown
-Copiar
-Editar
 
 ## 🚀 Tecnologias Utilizadas
 

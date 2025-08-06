@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# React Router Projeto - Busca de Itens
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto React com uso do **React Router v6** e **JSON Server** para simular uma API REST. O objetivo é praticar rotas dinâmicas e navegação entre páginas, além de manipulação de dados com um servidor local.
 
-## Available Scripts
+## 📁 Estrutura de Pastas
 
-In the project directory, you can run:
+📁 data/ → Contém o arquivo db.json com os dados mockados.
+📁 public/ → Arquivos públicos da aplicação.
+📁 src/
+┣ 📁 components/ → Componentes reutilizáveis como Navbar e SearchForm.
+┣ 📁 hooks/ → Custom hook useFetch para busca de dados.
+┣ 📁 pages/ → Páginas principais do projeto.
+┣ App.js → Componente principal da aplicação.
+┣ index.js → Ponto de entrada da aplicação React.
 
-### `npm start`
+markdown
+Copiar
+Editar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- React Router DOM v6
+- JSON Server
+- CSS Modules
+- Hooks (useEffect, useState)
 
-### `npm test`
+## 🧪 Como executar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone o repositório
 
-### `npm run build`
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+cd nome-do-repositorio
+2. Instale as dependências
+bash
+Copiar
+Editar
+npm install
+3. Inicie o JSON Server
+Certifique-se de que o json-server está instalado globalmente ou localmente:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copiar
+Editar
+# Instalação global
+npm install -g json-server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Inicie o servidor
+json-server --watch data/db.json --port 3001
+O servidor irá rodar em: http://localhost:3001
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Inicie a aplicação React
+bash
+Copiar
+Editar
+npm start
+A aplicação irá rodar em: http://localhost:3000
 
-### `npm run eject`
+🧭 Funcionalidades
+Navegação entre páginas com React Router
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Busca dinâmica de dados (via URL)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Componentização e reutilização
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Hook personalizado (useFetch) para requisições
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📝 Autor
+Diovanni Lucas Soares de Paula
+Estudante de Desenvolvimento de Software Multiplataforma - FATEC Diadema
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto foi desenvolvido como parte dos meus estudos de front-end com React e práticas com rotas e API REST, com base no curso "React do zero a maestria" de Matheus Battisti.

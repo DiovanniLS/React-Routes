@@ -25,21 +25,14 @@ Este é um projeto React com uso do **React Router v6** e **JSON Server** para s
 ## 🧪 Como executar
 
 ### 1. Clone o repositório
-
-```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
+
 2. Instale as dependências
-bash
-Copiar
-Editar
 npm install
 3. Inicie o JSON Server
 Certifique-se de que o json-server está instalado globalmente ou localmente:
 
-bash
-Copiar
-Editar
 # Instalação global
 npm install -g json-server
 
@@ -48,9 +41,6 @@ json-server --watch data/db.json --port 3001
 O servidor irá rodar em: http://localhost:3001
 
 4. Inicie a aplicação React
-bash
-Copiar
-Editar
 npm start
 A aplicação irá rodar em: http://localhost:3000
 

@@ -25,8 +25,7 @@ Este é um projeto React com uso do **React Router v6** e **JSON Server** para s
 ## 🧪 Como executar
 
 ### 1. Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https:https://github.com/DiovanniLS/React-Routes.git
 
 2. Instale as dependências
 npm install
